@@ -38,7 +38,7 @@ TextView time1;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         time1 = findViewById(R.id.time);
-        time1.setText(Integer.toString(math()));
+        time1.setText("На телескоп можно накопить за" +Integer.toString(math()) + "месяцев");
     }
 
 }
